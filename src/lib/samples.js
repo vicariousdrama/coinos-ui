@@ -50,7 +50,7 @@ export default {
   -H "Authorization: Bearer $token"
   -d '{
     "amount": 5000,
-    "hash": $HASH
+    "hash": "$HASH"
 }'`,
   rates: `curl "${api}/rates" 
   -H "content-type: application/json" 
